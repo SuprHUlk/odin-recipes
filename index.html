@@ -3,30 +3,45 @@
     <head>
         <meta charset="utf-8">
         <title>Ayush's Recipe</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <p>
-            <h1>Ayush's Recipes</h1>
-            <img  src="./images/chef1.jpeg" alt="./images/chef2.png">
-        </p>
-        <p>
-            <h2>Recipes</h2>
-            <ul>
+        <div>
+            <h1 class="heading">Ayush's Recipes</h1>
+            <img  class="chef" src="./images/chef1.jpeg" alt="./images/chef2.png">
+        </div>
+        <div>
+            <h2 class="heading recipe">Recipes</h2>
+            <ul class="list">
                 <li>
                     <h3>Appetizer</h3>
-                    <a href="./recipes/chicken-jerky.html">Chicken Jerky</a>
-                </li>
-                <p></p>
-                <li>
-                    <h3>Entrée</h3>
-                    <a href="./recipes/lamb.html">Rack of Lamb</a>
-                </li>
-                <p></p>
-                <li>
-                    <h3>Dessert</h3>
-                    <a href="./recipes/cake.html">Cake</a>
+                    <ul class="one">
+                        <li>
+                            <a href="./recipes/chicken-jerky.html">Chicken Jerky</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
-        </p>
+            <ul class="list">
+                <li>
+                    <h3>Entrée</h3>
+                    <ul class="one">
+                        <li>
+                            <a href="./recipes/lamb.html">Rack of Lamb</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <h3>Dessert</h3>
+                    <ul class="one">
+                        <li>
+                            <a href="./recipes/cake.html">Cake</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </body>
 </html>

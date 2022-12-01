@@ -1,0 +1,35 @@
+*{
+    background-color: aquamarine;
+    margin: 0%;
+}
+
+.heading{
+    background-color: yellowgreen;
+    font-size: 80px;
+    text-align: center;
+    margin: 10px;
+    padding: 1px;
+}
+
+.chef{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+.heading.recipe{
+    background-color: yellow;
+    font-size: 40px;
+}
+
+.list{
+    text-align: left;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+.list .one{
+    margin: 10px;
+}
