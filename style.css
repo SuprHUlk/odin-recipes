@@ -25,7 +25,7 @@
     width: 200px;
     height: auto;
     margin: 20px;
-    flex: 1;
+   
 }
 
 .list .one{
@@ -34,4 +34,5 @@
 
 #l{
     display: flex;
+    justify-content: space-between;
 }
