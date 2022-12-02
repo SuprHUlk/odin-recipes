@@ -1,6 +1,6 @@
 *{
     background-color: aquamarine;
-    margin: 0%;
+    margin: 0%;  
 }
 
 .heading{
@@ -30,4 +30,16 @@
 
 .list .one{
     margin: 10px;
+}
+
+#l{
+    display: flex;
+}
+
+.list.two{
+    margin-inline-start: 460px;
+}
+
+.list.three{
+    margin-inline-start: 450px;
 }
