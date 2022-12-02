@@ -22,10 +22,10 @@
 }
 
 .list{
-    text-align: left;
     width: 200px;
     height: auto;
     margin: 20px;
+    flex: 1;
 }
 
 .list .one{
@@ -34,12 +34,4 @@
 
 #l{
     display: flex;
-}
-
-.list.two{
-    margin-inline-start: 460px;
-}
-
-.list.three{
-    margin-inline-start: 450px;
 }
